@@ -17,24 +17,24 @@ while(str(a)+str(b)+str(c)+str(d)+str(e)+str(f)+str(g))!='7131622':
 	fich.write(movie.get('title'))
 	fichier.write("/")
 	fichier.write(movie.get('Votes')
-	if g==9:
+	if (g==9):
 		g=0
 		f+=1
 	else:
 		g+=1
-	if f==9:
+	if (f==9):
 		f=0
 		e+=1
-	if e==9:
+	if (e==9):
 		e=0
 		d+=1
-	if d==9:
+	if (d==9):
 		d=0
 		c+=1
-	if c==9:
+	if (c==9):
 		c=0
 		b+=1
-	if b==9:
+	if (b==9):
 		b=0
 		a+=1
 	print(str(a)+str(b)+str(c)+str(d)+str(e)+str(f)+str(g))
